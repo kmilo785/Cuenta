@@ -2,9 +2,14 @@
 
     Protected numeroCuentaAhorros As Integer
     Protected saldo As Double
+    Protected nombreCliente As String
     Protected cte As Cliente
 
+
+
+
     Protected Shared id As Integer = 1
+
 
     Public Function getNumeroCuentaAhorros() As Integer
         Return numeroCuentaAhorros
